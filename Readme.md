@@ -4,7 +4,7 @@
 
 ## Team Members:
 
-*  McPherson
+* Katherine McPherson
 * William Lyons
 * Tia Amabile
 
