@@ -15,7 +15,7 @@ Make them realistic: Develop the appropriate descriptions of each personas backg
 Persona | Student at Fairfield University
 ------- | -------
 Picture: |![Alt Text](http://www.nhsbsa.nhs.uk/i/Students/welcome.jpg)
-Fictional Name: | Karyn Tomhlson
+Fictional Name: | Karyn Tomlinson
 Job Title: | Student at Fairfield University
 Job Responsibilities: | N/A
 Demographics: | <ul><li>20 Years Old</li><li>Female</li><li>Major: Finance</li><li>Minor: Data Analytics</li><li>One of five kids</li></ul>
