@@ -1,24 +1,36 @@
 /**
 * ====================================================================
-*  styles.css -- Global styles for the Fairfield StagUp website
+*  styles.css -- Global styles for the Fairfield FUEL website
 * ====================================================================
 */
 /*---- Basic Styling ----*/
 h1 {
     color:red;
-    font-weight: bold;
+    font-weight: bolder;
     font-family: sans-serif;
     float: center;
 }
+h2{
+  color:#A50D27 ;
+  font-style: normal;
+  font-family: sans-serif;
+  font-weight: bolder;
+}
+/*this is for the button*/
 .btn-primary {
     background-color: #C6102E; /* bright cherry red */
     border-color: #A50D27; /* a darker shade of the same red */
 }
+body { padding-bottom: 70px;
+ }
 
+
+/*----End Basic Styling----------------------------------------- */
 /*---- Navbar Styling ----*/
-navbar-brand { padding: 15px 15px;}
-
+navbar-brand { padding: 15px 15px;
+}
 
 nav li {
   list-style:none outside;
 }
+/*---End Navbar Styling-------------------------------------------*/
