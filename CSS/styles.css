@@ -25,12 +25,23 @@ body { padding-bottom: 70px;
  }
 
 
+
 /*----End Basic Styling----------------------------------------- */
 /*---- Navbar Styling ----*/
-navbar-brand { padding: 15px 15px;
+.navbar-header {
+  padding: 2px 3px;
+}
+.form-inline{
+  color: red;
+  font-style: normal;
+  font-family: sans-serif;
+}
+/*figure out how to move the text elements down to be inline with email subscribe.*/
+.navbar-nav{
+  float: right;
+  font-weight: bold;
 }
 
-nav li {
-  list-style:none outside;
-}
+
+
 /*---End Navbar Styling-------------------------------------------*/
