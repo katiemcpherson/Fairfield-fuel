@@ -5,34 +5,41 @@
 */
 /*---- Basic Styling ----*/
 h1 {
-    color:red;
+    color: #A50D27 ;
     font-weight: bolder;
     font-family: sans-serif;
-    float: center;
+
+
 }
 h2{
   color:#A50D27 ;
   font-style: normal;
   font-family: sans-serif;
   font-weight: bolder;
+  text-decoration: underline;
 }
 /*this is for the button*/
 .btn-primary {
     background-color: #C6102E; /* bright cherry red */
     border-color: #A50D27; /* a darker shade of the same red */
+    float: right;
 }
 body { padding-bottom: 70px;
+  background-color: #bbb;
+
  }
+
 
 
 
 /*----End Basic Styling----------------------------------------- */
 /*---- Navbar Styling ----*/
 .navbar-header {
-  padding: 2px 3px;
+  padding: 1px 1px;
 }
+
 .form-inline{
-  color: red;
+  color: #bbb;
   font-style: normal;
   font-family: sans-serif;
 }
@@ -41,7 +48,11 @@ body { padding-bottom: 70px;
   float: right;
   font-weight: bold;
 }
-
+img {
+   height: 80px;
+   width: 75px;
+   max-width: 100%;
+ }
 
 
 /*---End Navbar Styling-------------------------------------------*/
