@@ -14,19 +14,30 @@ h1 {
 }
 h2{
   color:#A50D27 ;
-  font-size: 3em;
+  font-size: 4em;
 margin: 0 auto .2em;
 padding-bottom: .1em;
 line-height: 100%;
 font-weight: 700;
 text-transform: capitalize;
   font-style: normal;
-  font-family: Montserrat,Helvetica,Arial,sans-serif;
+  font-family: cursive;Thander,Helvetica,Arial,sans-serif;
   font-weight: bolder;
   border-bottom: 4px solid black;
   display: inline-block;;
    width: 700px;
+   text-align: right 2em;
 }
+
+h3{
+  color:red;
+  font-family: Montserrat,Helvetica,Arial,sans-serif;
+  border-bottom: 2px solid black;
+  font-size: 2em;
+
+
+}
+
 /*this is for the button*/
 .btn-primary {
     background-color: #C6102E; /* bright cherry red */
@@ -34,65 +45,73 @@ text-transform: capitalize;
     float: right;
 }
 body { padding-bottom: 70px;
-  background-color: #bbb;
+  background-color: black;
 
  }
  .thumbnail{
    color: red;
+   background-color: #bbb;
+
  }
  .site-footer{
    text-align: center;
+
  }
  .featured-events-top {
    background-image: url(/Users/billylyons/Documents/Fairfield-fuel/Images/Entrepreneur.jpeg);
    background-size: cover;
-   background-position: center center;
+   background-position: top;
 }
 .featured-text-container{
   color: black;
     font-family: "Times New Roman", Times, serif;
-    float: left;
-
+ba
 }
-
-
-
-
 
 
 /*----End Basic Styling----------------------------------------- */
 /*---- Navbar Styling ----*/
 
+.form-group{
+  float: left;
+  margin-right: 15px;
+}
+.btn-default{
+  background-color:#C6102E;
+  border-color: #A50D27;
+  font-family: "Times New Roman", Times, serif;
+
+}
+
+
 .navbar-header{
-  height: 80px;
-   padding: 5 10px;
-   float: left;
-   width: 80.8px;
-  width: 2px;
-  padding: 2px;
-  background-position: left;
-  background-image: url(/Users/billylyons/Documents/Stats/fuel_logo.jpg)
+  margin: .1px;
+height: 6em;
 
 }
 
 
 .form-inline{
-  color: #bbb;
-  font-style:  normal;;
-  font-family: sans-serif;
+  color: white;
+  font-style:  normal;
+  font-family: "Times New Roman", Times, serif;
   font-size: 14px;
 }
 /*figure out how to move the text elements down to be inline with email subscribe.*/
 .navbar-nav{
-  float: right;
-  font-weight: bold;
-
+  text-align:center;
+vertical-align:bottom;
+text-decoration:none;
+font-weight: bold;
+float: right;
+padding-top: 2em;
+font-size: 2em;
 }
 img {
-   height: 80px;
+   height: 6em;
     padding: 5 10px;
-    float: left;
-    width: 80.8px;
+  float: left;
+    width: 7em;
 }
 
 
