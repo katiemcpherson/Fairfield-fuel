@@ -69,4 +69,12 @@ Has weekly planning meetings about upcoming product pitches
 Reporting to the CEO
 Environment: Brad is a driven individual who likes to win. He likes perfection. He is not very on top of the changing times with social media however, he knows how to use photoshop. Brad is a very creative individual.
 Quote: “Deflate Gate”
-  
+
+
+
+
+
+Persona | Sponsor
+------- | -------
+Martha  | Founder of
+Call    |   
