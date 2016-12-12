@@ -59,6 +59,7 @@ h3:before, h3:after {
     position: relative;
     vertical-align: middle;
     width: 50%;
+
 }
 
 h3:before {
@@ -84,7 +85,6 @@ h3 {
 
 h4 {
     font-size: 3em;
-
     color: black;
   }
 
@@ -111,8 +111,9 @@ h4 {
 
 body {
     padding-bottom: 70px;
+    padding-left: 70px
     background-color: #979191;
-    padding: em;
+    
 }
 
 .site-footer {
