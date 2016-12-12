@@ -4,10 +4,12 @@
 * ====================================================================
 */
 /*---- Basic Styling ----*/
+
+
 .featured-text{
   color: #bbb;
   float: left;
-  text-decoration: underline;
+
 }
 
 .main-content{
@@ -16,6 +18,7 @@
     font-family: cursive;Thander,Helvetica,Arial,sans-serif;
 
 }
+/*"Fairfield"*/
 h1 {
     color: #A50D27 ;
     font-weight: bolder;
@@ -24,6 +27,7 @@ h1 {
 
 
 }
+/*"fuel"*/
 h2{
   color:#A50D27 ;
   font-size: 4em;
@@ -51,6 +55,25 @@ h3{
 h4{
 text-align: center;
   color: red;
+  font-size: 2em;
+
+}
+
+h5{
+  color: #A50D27;
+  font-size: 2em;
+  text-align: center;
+    font-family: cursive;Thander,Helvetica,Arial,sans-serif;
+    ;
+}
+h6{
+  color: #A50D27;
+  font-size: 3em;
+  text-align: center;
+}
+h4{
+  font-size: 2em;
+  color: #bbb;
 }
 
 /*this is for the button*/
@@ -59,7 +82,7 @@ text-align: center;
     border-color: #A50D27; /* a darker shade of the same red */
     float: right;
 }
-body { padding-bottom: 70px;
+body{ padding-bottom: 70px;
   background-color: black;
 
  }
@@ -85,6 +108,23 @@ ba
 
 
 /*----End Basic Styling----------------------------------------- */
+
+
+/*Button Styling*/
+
+.glyphicon-home{
+  color: black;
+  float: right;
+}
+.glyphicon-road{
+  color: black;
+}
+  .glyphicon-fire{
+    color: black;
+
+  }
+
+
 /*---- Navbar Styling ----*/
 
 .form-group{
@@ -116,7 +156,6 @@ height: 6em;
 .navbar-nav{
   text-align:center;
 vertical-align:bottom;
-text-decoration:none;
 font-weight: bold;
 float: right;
 padding-top: 2em;
@@ -124,9 +163,8 @@ font-size: 2em;
 }
 img {
    height: 6em;
-    padding: 5 10px;
-  float: left;
-    width: 7em;
+
+    width: 10em;
 }
 
 
