@@ -52,14 +52,39 @@ h2 {
     width: 700px;
 
 }
-
 h3 {
-  color: #A50D27;
-  font-size: 2em;
-  text-align: center;
+  color: #A50D27
+ overflow: hidden;
+ text-align: center;
+}
+h3:before,
+h3:after {
+ background-color: #bbb;
+ content: "";
+ display: inline-block;
+ height: 4px;
+ position: relative;
+ vertical-align: middle;
+ width: 50%;
+}
+h3:before {
+ right: 2em;
+ margin-left: -50%;
+}
+h3:after {
+ left: 2em;
+ margin-right: -50%;
+}
+h3 {
+color: #A50D27;
+  font-size: 3em;
   font-family: cursive;
   Thander, Helvetica, Arial, sans-serif;
+     line-height: 2px;
+     padding: 10px;
 
+ }
+*/
 }
 
 h4 {
