@@ -132,6 +132,9 @@ body {
     font-family: "Times New Roman", Times, serif;
     ba
 }
+.featured-launch {
+  float: right;
+}
 
 
 /*----End Basic Styling----------------------------------------- */
