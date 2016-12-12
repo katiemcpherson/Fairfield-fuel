@@ -79,7 +79,7 @@ h3 {
   Thander, Helvetica, Arial, sans-serif;
 
 }
-
+/
 h4 {
     text-align: center;
     color: red;
@@ -117,8 +117,7 @@ h4 {
 
 body {
     padding-bottom: 70px;
-    background-color: white;
-
+    background-color: gray;
 }
 
 .thumbnail {
