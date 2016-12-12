@@ -4,6 +4,18 @@
 * ====================================================================
 */
 /*---- Basic Styling ----*/
+.featured-text{
+  color: #bbb;
+  float: left;
+  text-decoration: underline;
+}
+
+.main-content{
+  font-size: 3em;
+  text-align: center;
+    font-family: cursive;Thander,Helvetica,Arial,sans-serif;
+
+}
 h1 {
     color: #A50D27 ;
     font-weight: bolder;
@@ -34,8 +46,11 @@ h3{
   font-family: Montserrat,Helvetica,Arial,sans-serif;
   border-bottom: 2px solid black;
   font-size: 2em;
+}
 
-
+h4{
+text-align: center;
+  color: red;
 }
 
 /*this is for the button*/
