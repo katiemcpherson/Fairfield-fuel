@@ -78,21 +78,12 @@ h3 {
   Arial, Helvetica, sans-serif;
 
 }
-/
 h4 {
     text-align: center;
     color: red;
     font-size: 2em;
-}
 
 
-
-
-h6 {
-    color: #A50D27;
-    font-size: 3em;
-    text-align: center;
-}
 
 h4 {
     font-size: 2em;
@@ -142,7 +133,7 @@ body {
 .featured-text-container {
     color: black;
     font-family: "Times New Roman", Times, serif;
-    ba
+
 }
 
 
