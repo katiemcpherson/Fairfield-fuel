@@ -222,19 +222,8 @@ img {
 }
 
 
-.contain {
-max-width:960px;
-text-align:center;
-}
 
-.category {
-position:relative;
-display: inline-block;
-float:left;
-padding:100px;
-padding-bottom:100px;
-padding-right: 100px;
-}
+
 
 /*---End Navbar Styling-------------------------------------------*/
 div.border { border-bottom: 1px solid #000; }
