@@ -3,107 +3,124 @@
 *  styles.css -- Global styles for the Fairfield FUEL website
 * ====================================================================
 */
+
+
 /*---- Basic Styling ----*/
 
-
-.featured-text{
-  color: #bbb;
-  float: left;
-
+.featured-text {
+    color: #bbb;
+    float: left;
 }
 
-.main-content{
-  font-size: 3em;
-  text-align: center;
-    font-family: cursive;Thander,Helvetica,Arial,sans-serif;
-
+.main-content {
+    font-size: 3em;
+    text-align: center;
+    font-family: cursive;
+    Thander, Helvetica, Arial, sans-serif;
 }
+
+
 /*"Fairfield"*/
+
 h1 {
-    color: #A50D27 ;
+    color: #A50D27;
     font-weight: bolder;
-    font-family: cursive;Thander,Helvetica,Arial,sans-serif;
+    font-family: cursive;
+    Thander, Helvetica, Arial, sans-serif;
     font-size: 4em;
-
-
 }
+
+
 /*"fuel"*/
-h2{
-  color:#A50D27 ;
-  font-size: 4em;
-margin: 0 auto .2em;
-padding-bottom: .1em;
-line-height: 100%;
-font-weight: 700;
-text-transform: capitalize;
-  font-style: normal;
-  font-family: cursive;Thander,Helvetica,Arial,sans-serif;
-  font-weight: bolder;
-  border-bottom: 4px solid black;
-  display: inline-block;;
-   width: 700px;
-   text-align: right 2em;
+
+h2 {
+    color: #A50D27;
+    font-size: 4em;
+    margin: 0 auto .2em;
+    padding-bottom: .1em;
+    line-height: 100%;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-style: normal;
+    font-family: cursive;
+    Thander, Helvetica, Arial, sans-serif;
+    font-weight: bolder;
+    border-bottom: 4px solid black;
+    display: inline-block;
+    ;
+    width: 700px;
+    text-align: right 2em;
 }
 
-h3{
-  color:red;
-  font-family: Montserrat,Helvetica,Arial,sans-serif;
-  border-bottom: 2px solid black;
-  font-size: 2em;
+h3 {
+    color: red;
+    font-family: Montserrat, Helvetica, Arial, sans-serif;
+    border-bottom: 2px solid black;
+    font-size: 2em;
 }
 
-h4{
-text-align: center;
-  color: red;
-  font-size: 2em;
-
+h4 {
+    text-align: center;
+    color: red;
+    font-size: 2em;
 }
 
-h5{
-  color: #A50D27;
-  font-size: 2em;
-  text-align: center;
-    font-family: cursive;Thander,Helvetica,Arial,sans-serif;
+h5 {
+    color: #A50D27;
+    font-size: 2em;
+    text-align: center;
+    font-family: cursive;
+    Thander, Helvetica, Arial, sans-serif;
     ;
 }
-h6{
-  color: #A50D27;
-  font-size: 3em;
-  text-align: center;
+
+h6 {
+    color: #A50D27;
+    font-size: 3em;
+    text-align: center;
 }
-h4{
-  font-size: 2em;
-  color: #bbb;
+
+h4 {
+    font-size: 2em;
+    color: #bbb;
+
 }
+
 
 /*this is for the button*/
+
 .btn-primary {
-    background-color: #C6102E; /* bright cherry red */
-    border-color: #A50D27; /* a darker shade of the same red */
+    background-color: #C6102E;
+    /* bright cherry red */
+    border-color: #A50D27;
+    /* a darker shade of the same red */
     float: right;
 }
-body{ padding-bottom: 70px;
-  background-color: black;
 
- }
- .thumbnail{
-   color: red;
-   background-color: #bbb;
-
- }
- .site-footer{
-   text-align: center;
-
- }
- .featured-events-top {
-   background-image: url(/Users/billylyons/Documents/Fairfield-fuel/Images/Entrepreneur.jpeg);
-   background-size: cover;
-   background-position: top;
+body {
+    padding-bottom: 70px;
+    background-color: black;
 }
-.featured-text-container{
-  color: black;
+
+.thumbnail {
+    color: red;
+    background-color: #bbb;
+}
+
+.site-footer {
+    text-align: center;
+}
+
+.featured-events-top {
+    background-image: url(/Users/billylyons/Documents/Fairfield-fuel/Images/Entrepreneur.jpeg);
+    background-size: cover;
+    background-position: top;
+}
+
+.featured-text-container {
+    color: black;
     font-family: "Times New Roman", Times, serif;
-ba
+    ba
 }
 
 
@@ -112,63 +129,66 @@ ba
 
 /*Button Styling*/
 
-.glyphicon-home{
-  color: black;
-  float: right;
-}
-.glyphicon-road{
-  color: black;
-}
-  .glyphicon-fire{
+.glyphicon-home {
     color: black;
+    padding: 6px
 
-  }
+}
+
+.glyphicon-road {
+    color: black;
+    padding: 6px;
+    text-align: center;
+}
+
+.glyphicon-fire {
+    color: black;
+    padding: 6px;
+    text-align: right;
+}
 
 
 /*---- Navbar Styling ----*/
 
-.form-group{
-  float: left;
-  margin-right: 15px;
-}
-.btn-default{
-  background-color:#C6102E;
-  border-color: #A50D27;
-  font-family: "Times New Roman", Times, serif;
-
+.form-group {
+    float: left;
+    margin-right: 15px;
 }
 
+.btn-default {
+    background-color: #C6102E;
+    border-color: #A50D27;
+    font-family: "Times New Roman", Times, serif;
+}
 
-.navbar-header{
-  margin: .1px;
-height: 6em;
+.navbar-header {
+    margin: .1px;
+    height: 6em;
+}
 
+.form-inline {
+    color: white;
+    font-style: normal;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 14px;
 }
 
 
-.form-inline{
-  color: white;
-  font-style:  normal;
-  font-family: "Times New Roman", Times, serif;
-  font-size: 14px;
-}
 /*figure out how to move the text elements down to be inline with email subscribe.*/
-.navbar-nav{
-  text-align:center;
-vertical-align:bottom;
-font-weight: bold;
-float: right;
-padding-top: 2em;
-font-size: 2em;
-}
-img {
-   height: 6em;
 
+.navbar-nav {
+    text-align: center;
+    vertical-align: bottom;
+    font-weight: bold;
+    float: right;
+    padding-top: 2em;
+    font-size: 2em;
+}
+
+img {
+    height: 6em;
     width: 10em;
 }
-
-
-
 
 
 /*---End Navbar Styling-------------------------------------------*/
