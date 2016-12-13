@@ -85,7 +85,8 @@ h3 {
 h4 {
     font-size: 2em;
     color: #bbb;
-}
+  }
+
 
 
 /*background image*/
@@ -109,8 +110,8 @@ h4 {
 
 body {
     padding-bottom: 70px;
-    background-color: gray;
-    padding: 3em;
+    background-color: white;
+    padding: em;
 }
 
 .site-footer {
@@ -158,9 +159,9 @@ body {
 }
 
 .navbar-header {
-    margin: .1px;
     height: 6em;
     float: left;
+    margin: ;
 }
 
 .form-inline {
@@ -175,9 +176,8 @@ body {
 
 .navbar-nav {
     float: right;
-    font-weight: bold;
-    float: right;
-    ;
+  font-style: bold;
+
     font-size: 1.25em;
 }
 
