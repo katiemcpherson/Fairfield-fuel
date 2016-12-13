@@ -111,7 +111,7 @@ h4 {
 
 body {
     padding-bottom: 70px;
-    background-color: white;
+    background-color: #979191;
     padding: em;
 }
 
@@ -187,10 +187,16 @@ body {
 
 .form-inline {
     color: white;
+    text-align: left;
     font-style: normal;
     font-family: "Times New Roman", Times, serif;
     font-size: 14px;
 }
+
+.form-group{
+float: left;
+}
+
 
 
 /*figure out how to move the text elements down to be inline with email subscribe.*/
