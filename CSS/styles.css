@@ -43,7 +43,7 @@ h2 {
     border-bottom: 4px solid black;
     display: inline-block;
     ;
-    width: 700px;
+    width: 600px;
 }
 
 h3 {
@@ -128,7 +128,7 @@ body {
    background-image: url(https://assets.entrepreneur.com/content/16x9/822/20150720143913-woman-speaking-conference-crowd.jpeg);
 height: 50em;
    background-size: cover;
-
+   float: left;
   padding: 15px;
 
 }
