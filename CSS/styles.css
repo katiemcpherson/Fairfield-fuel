@@ -113,7 +113,10 @@ body {
     padding-bottom: 70px;
     padding-left: 70px
     background-color: #979191;
-    
+    background-color: white;
+    margin-top:inherit;
+
+
 }
 
 .site-footer {
@@ -123,10 +126,11 @@ body {
 
 .featured-events-top {
    background-image: url(https://assets.entrepreneur.com/content/16x9/822/20150720143913-woman-speaking-conference-crowd.jpeg);
+height: 50em;
    background-size: cover;
-   background-position: top;
+
   padding: 15px;
-    background-position: top;
+
 }
 
 .featured-text-container {
