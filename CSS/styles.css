@@ -9,7 +9,6 @@
 
 .featured-text {
     color: #bbb;
-
     text-align: center;
 }
 
@@ -99,9 +98,18 @@ h4 {
     font-size: 2em;
     color: #bbb;
 
+
 }
+/*background image*/
 .img-fluid{
-  background-size:cover;
+  background-position: center;
+  height: 200px;
+   width: 50%;
+   background-size: cover;
+
+
+
+
 }
 
 
@@ -120,18 +128,14 @@ body {
     background-color: gray;
 }
 
-.thumbnail {
-    color: red;
-    background-color: #bbb;
-}
 
 .site-footer {
     text-align: center;
 }
 
 .featured-events-top {
-    background-size: cover;
     background-position: top;
+
 }
 
 .featured-text-container {
@@ -167,11 +171,6 @@ body {
 
 /*---- Navbar Styling ----*/
 
-.form-group {
-    float: left;
-    margin-right: 15px;
-}
-
 .btn-default {
     background-color: #C6102E;
     border-color: #A50D27;
@@ -180,7 +179,8 @@ body {
 
 .navbar-header {
     margin: .1px;
-    height: 6em;
+    height:6em;
+    float: left;
 }
 
 .form-inline {
@@ -188,22 +188,21 @@ body {
     font-style: normal;
     font-family: "Times New Roman", Times, serif;
     font-size: 14px;
+
 }
 
 
 /*figure out how to move the text elements down to be inline with email subscribe.*/
 
 .navbar-nav {
-    text-align: center;
-    vertical-align: bottom;
+float: right;
     font-weight: bold;
-    float: right;
-    padding-top: 2em;
+    float: right;;
     font-size: 1.25em;
 }
 
 img {
-    height: 6em;
+    height: 6e;
     width: 10em;
 }
 
