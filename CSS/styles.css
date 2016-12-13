@@ -119,6 +119,10 @@ body {
 }
 
 .featured-events-top {
+   background-image: url(https://assets.entrepreneur.com/content/16x9/822/20150720143913-woman-speaking-conference-crowd.jpeg);
+   background-size: cover;
+   background-position: top;
+  padding: 15px;
     background-position: top;
 }
 
@@ -159,9 +163,8 @@ body {
 }
 
 .navbar-header {
-    height: 6em;
     float: left;
-    margin: ;
+
 }
 
 .form-inline {
