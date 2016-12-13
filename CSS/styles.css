@@ -14,7 +14,7 @@
 
 .main-content {
     font-size: 3em;
-    text-align: center;
+    text-align: center
     font-family: cursive;
     Thander, Helvetica, Arial, sans-serif;
 }
@@ -117,6 +117,7 @@ body {
 
 .site-footer {
     text-align: center;
+    padding: 15px;
 }
 
 .featured-events-top {
@@ -134,6 +135,10 @@ body {
 }
 .featured-launch {
   float: right;
+}
+
+.title-widget{
+  font-size: 3em;
 }
 
 
@@ -155,6 +160,15 @@ body {
 .glyphicon-fire {
     color: black;
     padding: 6px;
+}
+.glyphicon-plane {
+  color: black;
+  padding: 6px;
+
+}
+.glyphicon-hourglass {
+  color: black;
+  padding: 6px;
 }
 
 
